@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weather {
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.weather-search {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.weather input {
+    width: 220px;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid #2B2C2B;
+    border-radius: 12px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weather input:focus,
+.weather-btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 1px rgba(0, 123, 255, .5);
+}
+
+.weather-btn {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    background-color: #0081DF;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#weather-days td {
+    display: none;
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    background-color: #EFEAD7;
+    margin-bottom: 10px;
+}
+
+#weather-days td {
+    margin-right: 10px;
+}
+
+table {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#weather-icons td {
+    width: 55px;
+    height: 150px;
+    text-align: center;
+    background-color: #EFEAD7;
+}
